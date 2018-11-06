@@ -31,13 +31,8 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 // request data from various URLs. 
 // ================================================================================
 
-<<<<<<< HEAD
 require("./routing/apiRoutes")(app); 
 require("./routing/htmlRoutes")(app);
-=======
-require("./routing/apiRoutes.js")(app); 
-require("./routing/htmlRoutes.js")(app);
->>>>>>> d4140461bfe14358fe920082b22ab9ccb0fcffc4
 
 
 // ==============================================================================
